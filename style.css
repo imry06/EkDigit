@@ -1,43 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+
 }
 
-header{
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('./img/img1.jpg');
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
+/* header  */
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/img1.jpg");
+  height: 35vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+.logo{
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: .5rem 3rem;
+  border-radius: 50px;
+  font-family: pacifico, cursive;
+  font-weight: 900;
+}
+.hero{
+  height: 80vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/img2.jpg");
+  background-position: center;
+  background-size: cover;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+/* footer  */
+footer {
+  background-color: #31313a;
+  height: 45vh;
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
 
-footer{
-    background-color: #31313a;
-    height: 45vh;
-    width: 100%;
-    color: #fff;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-text-align: center;
+.clr-a{
+  color: #0e3c6a;
+}
+.clr-b{
+  color: #c51c39;
 }
